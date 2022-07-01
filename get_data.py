@@ -1,4 +1,3 @@
-# Get data from 'https://data.korona.gov.sk/
 import requests
 
 

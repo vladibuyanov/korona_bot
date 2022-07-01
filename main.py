@@ -1,9 +1,9 @@
+import os
 from telebot import types, TeleBot
-
 from get_data import ag_testy, vaccinations
-from config import token
 
-bot = TeleBot(token)
+
+bot = TeleBot(os.environ.get('TOKEN'))
 
 
 @bot.message_handler(commands=['start'])
